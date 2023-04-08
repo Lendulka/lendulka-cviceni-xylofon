@@ -15,6 +15,7 @@ const played = (event) => {
 buttons.forEach((button) => {
     button.addEventListener('animationend', (event) => {
         event.target.classList.remove('zatres')
+        //button.classList.remove('zatres')
     })
 })
 
