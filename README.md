@@ -31,6 +31,7 @@ Přidej ovládání přes klávesnici.
 
 1. Přidej posluchač události `keydown` na celou stránku.
 
-1. Pokud vlastnost `code` vzniklé události začíná na `Digit`, ulož si do proměnné následující číslo. Například z `Digit4` si ulož `4`.
+1. Pokud vlastnost `code` vzniklé události začíná na `Digit`, ulož si do proměnné následující číslo. 
+Například z `Digit4` si ulož `4`.
 
 1. Pokud je číslo větší nebo rovno jedné a menší nebo rovno počtu kamenů, přehraj tón na příslušném kamenu. Nezapomeň, že pole se v JavaScriptu indexují od nuly, takže například pro číslo `1` přehraj tón na kameni s indexem `0`.
